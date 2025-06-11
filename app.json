@@ -1,42 +1,36 @@
 {
   "expo": {
-    "name": "PVilyStudio",
-    "slug": "PVilyStudio",
+    "name": "Vily",
+    "slug": "PortfolioVilyx",
+    "scheme": "PortfolioVilyx", 
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "pvilystudio",
+    "icon": "./assets/images/vilyperfil.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/vilyperfil.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
     },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/vilyperfil.png",
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true
+    "web": {
+      "favicon": "./assets/images/vilyperfil.png"
     }
   }
 }
